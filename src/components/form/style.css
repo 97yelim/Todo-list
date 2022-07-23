@@ -14,6 +14,7 @@
     padding:20px;
     box-sizing:border-box ;
     border-radius: 0 0 20px 20px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 8px 0px;
 }
 
 .form-input {
@@ -22,7 +23,7 @@
 }
 
 .form-input p {
-    color: #fff;
+    color: #94a1b2;
     font-family: 'SUIT-Medium';
 }
 .form-input  input {
@@ -38,13 +39,14 @@
     color: #fff;
 }
 .form-btn button{
-    background-color: #f25042;
+    background-color: #ff7770;
     padding: 10px 20px;
     border-radius: 20px;
     font-family: 'SUIT-Medium';
     font-size: 1em;
     color: #fff;
     transition: all .3s;
+    cursor: pointer;
 }
 .form-btn button:hover{
     background-color: #d63f32;

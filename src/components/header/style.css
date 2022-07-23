@@ -1,7 +1,7 @@
 @font-face {
-    font-family: 'PyeongChangPeace-Bold';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/PyeongChangPeace-Bold.woff2') format('woff2');
-    font-weight: 700;
+    font-family: 'LeferiPoint-BlackObliqueA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/LeferiPoint-BlackObliqueA.woff') format('woff');
+    font-weight: normal;
     font-style: normal;
 }
 .Header-con {
@@ -13,9 +13,10 @@
     /* border-bottom: 1px solid rgb(197, 197, 211); */
     padding-top: 20px;
     border-radius: 20px 20px 0 0 ;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 8px 0px;
 }
 .Header-con p {
-    font-family: 'PyeongChangPeace-Bold';
+    font-family: 'LeferiPoint-BlackObliqueA';
     line-height: 50px;
     margin: 0 20px;
     color: #fffffe;

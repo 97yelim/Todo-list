@@ -1,0 +1,20 @@
+
+
+h1 {
+    margin-top: 50px;
+}
+
+.work-text, .done-text{
+    font-family: 'LeferiPoint-BlackObliqueA';
+    color: #ff7770;
+    color: #94a1b2;
+}
+
+.todo-wrap {
+    display: flex;
+    justify-content: flex-start;
+}
+.todo-wrap:nth-of-type(1) {
+    padding-bottom: 40px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.199);
+}

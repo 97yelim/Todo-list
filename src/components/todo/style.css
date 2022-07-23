@@ -1,0 +1,57 @@
+
+ * {font-family: 'SUIT-Medium';}
+.todo-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.todo-list {
+    width: 32%;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-right:17px;
+    margin-bottom: 20px;
+    background-color: #16161a;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 8px 0px;
+}
+
+.todo-list:last-of-type {
+    margin-right: 0;
+}
+
+.todo-list h3 {
+    color: #94a1b2;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #94a1b21e;
+}
+
+.todo-list .todo-cont {
+    color: #94a1b280;
+    margin: 20px 0;
+}
+
+.todo-list button {
+    float: right;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 30px 10px 0 0 ;
+    cursor: pointer;
+    transition: all .3s;
+}
+.todo-list button:nth-of-type(1) {
+    background-color: #303134;
+    color: #94a1b2;
+}
+.todo-list button:nth-of-type(1):hover{
+    background-color: #1d1e20;
+}
+.todo-list button:nth-of-type(2) {
+    background-color: #ff7770;
+}
+.todo-list button:nth-of-type(2):hover {
+    background-color: #d63f32;
+}
