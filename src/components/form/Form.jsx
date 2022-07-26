@@ -31,8 +31,8 @@ function Form({setTodos, todos}) {
   }
   return (
     <div className="form">
-      <div className="form-input">
-        <p>제목</p>
+      <from className="form-input">
+        <label>제목</label>
         <input 
           type="text"
           name="title"
@@ -41,7 +41,7 @@ function Form({setTodos, todos}) {
           onChange={onChangeHandler}
           
         />
-        <p>내용</p>
+        <label>내용</label>
         <input
           type="text"
           size = "50"
@@ -50,7 +50,7 @@ function Form({setTodos, todos}) {
           value={todo.cont}
           onChange={onChangeHandler}
         />
-      </div>
+      </from>
       <div className="form-btn">
         <button onClick={onSubmitHandler}>추가하기</button>
       </div>

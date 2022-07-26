@@ -20,13 +20,13 @@ const TodoList = () => {
         },
       ]);
     return (
-        <div>
+        <>
             <Layout>
               <Header/>
               <Form setTodos={setTodos} todos={todos} ></Form>
               <List todos={todos} setTodos={setTodos}></List>
             </Layout>
-        </div>
+        </>
     );
 };
 

@@ -22,7 +22,7 @@
     align-items: center;
 }
 
-.form-input p {
+.form-input label {
     color: #94a1b2;
     font-family: 'SUIT-Medium';
 }
